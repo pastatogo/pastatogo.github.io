@@ -5,25 +5,69 @@
   <title>Pasta To Go</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; background: #fafafa; }
-    h1 { color: #c0392b; }
+    body { font-family: Arial, sans-serif; margin: 0; background: #fafafa; text-align: center; }
+    header { background: #c0392b; color: white; padding: 20px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
     img { margin: 20px auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2); }
-    .contact { margin-top: 30px; font-size: 18px; }
+    footer { background: #333; color: white; padding: 15px; margin-top: 20px; }
   </style>
 </head>
 <body>
-  <h1> Pasta To Go</h1>
-  <p>BUON APPETITO
-  !</p>
+  <header>
+    <h1> Pasta To Go</h1>
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="menu.html">Menü</a>
+      <a href="iletisim.html">İletişim</a>
+    </nav>
+  </header>
 
-  <!-- Burada resmin repo'ya yüklediğin dosya adıyla aynı olmalı -->
-  <img src="pasta.jpg" alt="" widimage0.pngth="400">
+  <h2>En taze pastalar, sadece sizin için!</h2>
+  <img src="pasta.jpg" alt="Pasta Fotoğrafı" width="400">
 
-  <div class="contact">
-    <h2>📍 İletişim</h2>
-    <p>Adres: Benalmádena, Málaga</p>
-    <p>Tel: 603 252 606</p>
-  </div>
+  <footer>
+    © 2025 Pasta To Go - Benalmádena, Málaga
+  </footer>
 </body>
 </html>
-image0.png
+
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <title>Menü - Pasta To Go</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #fafafa; text-align: center; }
+    header { background: #c0392b; color: white; padding: 20px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    ul { list-style: none; padding: 0; font-size: 18px; }
+    li { margin: 10px 0; }
+    footer { background: #333; color: white; padding: 15px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍰 Menü</h1>
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="menu.html">Menü</a>
+      <a href="iletisim.html">İletişim</a>
+    </nav>
+  </header>
+
+  <h2>Pastalarımız</h2>
+  <ul>
+    <li>Çilekli Pasta - 4€</li>
+    <li>Çikolatalı Pasta - 4.5€</li>
+    <li>Cheesecake - 5€</li>
+    <li>Tiramisu - 5€</li>
+  </ul>
+
+  <footer>
+    © 2025 Pasta To Go
+  </footer>
+</body>
+</html>
